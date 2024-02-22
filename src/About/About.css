@@ -1,0 +1,65 @@
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4vw;
+}
+.about h2{
+    font-family: 'Raleway';
+    font-size: 2rem;
+}
+.resume-button{
+    display: inline-block;
+    text-align: center;
+    background-color: #232020;
+    color: #d9d9d9;
+    text-decoration: none;
+    width: 20vw;
+    padding:0.5rem;
+    margin: 3rem 1rem 0 1rem;
+    box-shadow: 5px 5px 0px -2px #d9d9d9, 5px 5px #232020;
+    border: 1px solid #232020
+}
+.resume-button:hover{
+    background-color: #d9d9d9;
+    color: #232020;
+    border: 1px solid #232020;
+}
+.about svg{
+    display: none;
+}
+@media only screen and (min-width:800px) {
+    .about{
+        height: 100vh;
+        padding: 0 0 0 3vw;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .about h2{
+        font-size: 3rem;
+    }
+    .about p{
+        font-size: 1.15rem;
+        margin-bottom: 2rem;
+        width:40vw;
+    }
+    .resume-button{
+        width:10vw;
+        font-size: 0.9rem;
+        margin: 3rem 1rem 0 0;
+    }
+    .svg{
+        display: flex;
+        width: 48vw;
+        height: 60vh;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    .about svg{
+        display: flex;
+        width: 30vw;
+        height: 60vh;
+    }
+}

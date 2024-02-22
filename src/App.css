@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Mukta&family=Poppins:wght@200&display=swap');
+*{
+  cursor:none;
+}
+
+body{
+  background-color: #d9d9d9;
+  font-family: 'DM Mono', monospace;
+  font-weight: 400;
+  margin:0;
+  overflow-x: hidden;
+  color: #232020;
+  scroll-behavior: smooth;
+}
+::-moz-selection{
+  background-color: #232020;
+  color: #d9d9d9;
+}
+::-webkit-selection{
+  background-color: #232020;
+  color: #d9d9d9;
+}
+::selection{
+  background-color: #232020;
+  color: #d9d9d9;
+}
+
+.cursor{
+  width:25px;
+  height: 25px;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #232020;
+  z-index:2;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.app{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:800px){
+  .cursor{
+    display: none;
+  }
+}

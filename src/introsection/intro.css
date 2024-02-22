@@ -1,0 +1,30 @@
+.intro{
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.intro h2{
+    font-family: 'Raleway';
+    font-size: 2rem;
+}
+.intro p{
+    font-size: 1rem;
+}
+
+@media only screen and (min-width:800px) {
+    .intro{
+        height: 100vh;
+    }
+    .intro h2{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .intro p{
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+}
