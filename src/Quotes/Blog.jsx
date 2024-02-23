@@ -28,9 +28,6 @@ export const Blog = () => {
           <AnimatePresence initial={false}>
             {isVisible && quote[0] && quote[0].Quote && (
               <motion.p
-                initial={{ x: '0px', opacity: 0 }}
-                animate={{ x: '0px', opacity: 1 }}
-                key={quote[0].Quote}
                 className='quote'
               >
                 {quote[0].Quote.split('\n').map((line, index) => (
