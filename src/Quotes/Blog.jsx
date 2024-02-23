@@ -10,6 +10,7 @@ export const Blog = () => {
   const quotes = data.Quotes;
   const len = data.Quotes.length;
   const [quote, setQuote] = useState([[quotes[0]]]);
+  console.log(quote)
 
   return (
     <div className='blog' id='blog'>
