@@ -8,7 +8,6 @@
 .quote {
   width: 80vw;
   font-size: 1em;
-  padding-left: 12%;
 }
 .dummy-head {
   padding-left: 5vw;
@@ -18,6 +17,13 @@
   float: right;
   font-size: 1rem;
   font-style: italic;
+}
+.quotetext {
+  width:80vw;
+  padding: 0 10vw;
+}
+.quotetext p{
+  width: 70vw;
 }
 
 @media only screen and (min-width: 800px) {
