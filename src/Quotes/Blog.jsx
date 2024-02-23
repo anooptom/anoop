@@ -30,12 +30,6 @@ export const Blog = () => {
               <motion.p
                 className='quote'
               >
-                {quote[0].Quote.split('\n').map((line, index) => (
-                  <div key={index}>
-                    {line}
-                    <br />
-                  </div>
-                ))}
                 {/* Quote Content from Introduction */}
                 Introduction:
                 In the rapidly evolving landscape of cloud computing, ensuring robust security measures is paramount for organizations hosting their applications and data on cloud platforms. AWS (Amazon Web Services) Firewall Manager emerges as a powerful tool, offering a centralized and scalable solution to manage and enforce security policies across multiple AWS accounts. This essay explores the key features and benefits of AWS Firewall Manager in enhancing cloud security.
