@@ -34,10 +34,10 @@ export const Blog = () => {
                 className='quote'
               >
                 {quote[0].Quote.split('\n').map((line, index) => (
-                  <React.Fragment key={index}>
+                  <div key={index}>
                     {line}
                     <br />
-                  </React.Fragment>
+                  </div>
                 ))}
               </motion.p>
             )}
